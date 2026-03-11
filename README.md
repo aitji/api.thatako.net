@@ -1,3 +1,6 @@
+# api.thatako.net
+i will write `readme` later... rn it just `dev`
+
 # install
 `node js` and install `dotenv`
 
@@ -33,5 +36,4 @@ await fetch("{process.env.URL}/callback?nocache_id=6&token={process.env.TOKEN}",
 ```js
 copy(document.cookie)
 ```
-
-and use it inside `.env` file
+> and use it inside `.env` file
