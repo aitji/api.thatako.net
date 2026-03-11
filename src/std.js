@@ -88,10 +88,8 @@ const search = async term => {
         fancy[gradeKey][classKey].students.push(r)
     }
 
-    fs.writeFileSync("../fancy_students.json", JSON.stringify(fancy, null, 2))
-
-
-    fs.writeFileSync("../students.json", JSON.stringify(json, null, 2))
-    fs.writeFileSync("../students.csv", csv)
+    fs.writeFileSync("../data/fancy_students.json", JSON.stringify(fancy, null, 2))
+    fs.writeFileSync("../data/students.json", JSON.stringify(json, null, 2))
+    fs.writeFileSync("../data/students.csv", csv)
     console.log("done:", rows.length)
 })()
