@@ -1,14 +1,28 @@
 # api.thatako.net
 i will write `readme` later... rn it just `dev`
 
-# install
+## install
 `node js` and install `dotenv`
 
 ```js
 npm install dotenv
 ```
 
-# .env
+## todo
+
+### gathering the reources
+priority this
+- [x] students data
+- [ ] sgs json return
+- [ ] port my old sgs gathering, to more light weight
+
+### api
+need data first
+- [ ] landing place `api.thatako.net`
+- [ ] api.thatako.net/`v1`/`students`
+- [ ] api.thatako.net/`v1`/`sgs`
+
+s## .env
 where to find data for `.env`?
 > f12 -> network -> search -> (filiter with xhr) -> first one
 it will be in this structure:
