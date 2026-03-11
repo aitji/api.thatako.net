@@ -22,7 +22,7 @@ need data first
 - [ ] api.thatako.net/`v1`/`students`
 - [ ] api.thatako.net/`v1`/`sgs`
 
-s## .env
+## .env
 where to find data for `.env`?
 > f12 -> network -> search -> (filiter with xhr) -> first one
 it will be in this structure:
