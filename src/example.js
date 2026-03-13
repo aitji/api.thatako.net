@@ -9,8 +9,31 @@ async function example() {
 
   try {
     await client.login(STUDENT_ID, CITIZEN_ID)
-    const info = await client.getUserInfo("TblStudents/Email-TblStudents.aspx")
-    client.saveFile(`info.html`, info)
+
+    const allInfo = [
+      "TblStudentsInfo/Show-TblStudentsInfo-Table.aspx",
+      "TblStudents/Show-TblStudents.aspx",
+      "TblStudents/Email-TblStudents.aspx",
+      "TblStudentsInfo/Show-TblStudentsInfo-Table.aspx",
+      "View_TranscriptsAttend/Show-View-TranscriptsAttend-Table.aspx",
+      "View_TransScoreSub/Show-View-TransScoreSub-Table.aspx",
+      "TblStudentElective/SubjectsElection.aspx",
+      "Reports/ReGradeReq.aspx",
+      "Reports/PP7Req.aspx",
+      "Reports/PP6.aspx",
+      "Reports/PP1.aspx"
+    ]
+    for (const index of allInfo) {
+      const info = await client.getUserInfo(index)
+      client.saveFile(`info-${index.replaceAll('/', '-')}.html`, info)
+    }
+
+    //grade
+    const allGrades = await client.getAllGrades()
+    for (const [semester, gradeData] of Object.entries(allGrades)) {
+      if (gradeData) client.saveFile(`info-grades-${semester}.html`, gradeData)
+      else console.log(`[WARN] no grade data for semester ${semester}`)
+    }
 
     await client.logout()
     console.log('\nAll done!')

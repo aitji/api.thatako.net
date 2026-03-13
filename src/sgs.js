@@ -22,7 +22,7 @@ class SGSClient {
             },
             maxRedirects: 5,
             validateStatus: () => true,
-            timeout: 15000
+            // timeout: 15000
         })
     }
 

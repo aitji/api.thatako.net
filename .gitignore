@@ -1,2 +1,6 @@
 src/.env
 node_modules
+
+# my file
+18429-*.html
+18429-*.json
