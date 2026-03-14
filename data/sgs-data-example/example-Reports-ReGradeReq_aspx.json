@@ -1,0 +1,6 @@
+{
+  "page": "regrade_requests",
+  "school": "ท่าตะโกพิทยาคม", // school name
+  "user": "สุริยะ อินชู", // student name e.g. สุริยะ อินชู
+  "requests": []
+}

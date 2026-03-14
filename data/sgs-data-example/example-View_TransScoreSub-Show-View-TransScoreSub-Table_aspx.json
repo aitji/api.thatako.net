@@ -1,0 +1,10 @@
+{
+  "page": "grades",
+  "school": "ท่าตะโกพิทยาคม", // school
+  "user": "สุริยะ อินชู", // student name e.g. สุริยะ อินชู
+  "semesterValue": "--PLEASE_SELECT--",
+  "semesterLabel": "** โปรดเลือก **",
+  "gpa": null,
+  "subjects": [],
+  "summary": {}
+}

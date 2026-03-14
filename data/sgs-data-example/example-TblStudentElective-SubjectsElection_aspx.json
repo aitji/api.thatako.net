@@ -1,0 +1,7 @@
+{
+  "page": "elective_subjects",
+  "school": "ท่าตะโกพิทยาคม", // school name
+  "user": "สุริยะ อินชู", // student name e.g. สุริยะ อินชู
+  "selectedSubjects": [],
+  "availableSubjects": []
+}

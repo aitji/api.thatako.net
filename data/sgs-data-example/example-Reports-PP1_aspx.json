@@ -1,0 +1,9 @@
+{
+  "page": "pp1",
+  "school": "ท่าตะโกพิทยาคม", // school
+  "user": "สุริยะ อินชู", // student name e.g. สุริยะ อินชู
+  "languageOptions": [
+    "ไทย",
+    "อังกฤษ"
+  ]
+}

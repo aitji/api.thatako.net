@@ -1,0 +1,15 @@
+{
+  "page": "pp6",
+  "school": "ท่าตะโกพิทยาคม", // school
+  "user": "สุริยะ อินชู", // student name e.g. สุริยะ อินชู
+  "availableYears": [
+    "โปรดเลือก",
+    "2566",
+    "2567",
+    "2568"
+  ],
+  "availableTerms": [
+    "1",
+    "2"
+  ]
+}
